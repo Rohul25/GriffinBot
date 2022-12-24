@@ -107,18 +107,16 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'ɴᴏᴛᴇ', 'note'),
+                    InlineKeyboardButton(f'ᴍᴇᴛʜᴏᴅ', 'mthd')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo'),
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfoo')
+                    InlineKeyboardButton(f'ɴᴏᴛᴇ', 'note'),
+                    InlineKeyboardButton(f'ᴍᴇᴛʜᴏᴅ', 'mthd')
                 ]
             )
                 
@@ -129,18 +127,16 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'ɴᴏᴛᴇ', 'note'),
+                    InlineKeyboardButton(f'ᴍᴇᴛʜᴏᴅ', 'mthd')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo'),
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfoo')
+                    InlineKeyboardButton(f'ɴᴏᴛᴇ', 'note'),
+                    InlineKeyboardButton(f'ᴍᴇᴛʜᴏᴅ', 'mthd')
                 ]
             )
 
@@ -753,13 +749,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "kd_cnl":
             cnlbtn = [[
-                      InlineKeyboardButton('Lᴜᴄɪғᴇʀ Bᴏᴛ Lᴏɢs', url="https://t.me/LuciferBot_logs")
+                      InlineKeyboardButton('Bᴏᴛ Uᴘᴅᴀᴛᴇꜱ', url="UPD_CHNL")
                      ], [
-                      InlineKeyboardButton('Gʀᴏᴜᴘ', url='t.me/mh_request'),
-                      InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='t.me/movieshouse8')
+                      InlineKeyboardButton('RᴇQᴜᴇꜱᴛ Cʜᴀɴɴᴇʟ ', url="RQT_CHNL")
                      ], [
-                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='t.me/kdbotz_support'),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='t.me/kd_botz')
+                      InlineKeyboardButton('Gʀᴏᴜᴘ', url='GRP_LNK'),
+                      InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='CHNL_LNK')
                      ], [
                       InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
                      ]]
@@ -1116,18 +1111,16 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'ɴᴏᴛᴇ', 'note'),
+                    InlineKeyboardButton(f'ᴍᴇᴛʜᴏᴅ', 'mthd')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo'),
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfoo')
+                    InlineKeyboardButton(f'ɴᴏᴛᴇ', 'note'),
+                    InlineKeyboardButton(f'ᴍᴇᴛʜᴏᴅ', 'mthd')
                 ]
             )
                 
@@ -1138,9 +1131,8 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'ɴᴏᴛᴇ', 'note'),
+                    InlineKeyboardButton(f'ᴍᴇᴛʜᴏᴅ', 'mthd')
                 ]
             )
 
@@ -1304,7 +1296,7 @@ async def advantage_spell_chok(msg):
     gs_parsed = []
     if not g_s:
         btn = [[
-            InlineKeyboardButton(' ɢᴏᴏɢʟᴇ ', url=f"https://google.com/search?q={search}"),
+            InlineKeyboardButton('ɢᴏᴏɢʟᴇ', url=f"https://google.com/search?q={search}"),
             InlineKeyboardButton('ɪᴍᴅʙ', url=f"https://imdb.com/find?q={search}")
         ]]           
         k = await msg.reply_photo(photo=SPELL_IMG, caption=script.I_CUDNT, reply_markup=InlineKeyboardMarkup(btn))    
@@ -1338,7 +1330,7 @@ async def advantage_spell_chok(msg):
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
         btn = [[
-            InlineKeyboardButton(' ɢᴏᴏɢʟᴇ ', url=f"https://google.com/search?q={search}"),
+            InlineKeyboardButton('ɢᴏᴏɢʟᴇ', url=f"https://google.com/search?q={search}"),
             InlineKeyboardButton('ɪɴsᴛʀᴜᴄᴛɪᴏɴs', callback_data='splmd')
         ]]           
         k = await msg.reply_photo(photo=SPELL_IMG, caption=script.CUDNT_FND, reply_markup=InlineKeyboardMarkup(btn))    
