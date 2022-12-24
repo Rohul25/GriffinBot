@@ -48,6 +48,8 @@ GRP_LNK = environ.get('GRP_LNK', 'https://t.me/BeatzSupport')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/ViralBeatz')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/BeatzSupport')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
+UPD_CHNL = environ.get('UPD_CHNL', 'https://t.me/ThaniBots')
+RQT_CHNL = environ.get('RQT_CHNL', 'https://t.me/BeatzSupport')
 
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', 0))
